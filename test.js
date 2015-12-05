@@ -1,7 +1,6 @@
 import test from 'ava';
 import tokenize from './index.js';
 
-
 test('should expect a string', t => {
     t.throws(() => { tokenize({}) }, 'You must supply a string');
 });
